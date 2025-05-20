@@ -52,11 +52,15 @@ Choose the most appropriate method below depending on your platform:
 
 1. Download the latest release for your OS from our [Releases](https://github.com/Ametrine-cc/restock/releases) page.  
 2. Follow platform-specific instructions (e.g., run the installer, drag to Applications folder).
-
-#### For Web-Based Application (Self-hostable)
-
+   
+#### For Terminal-Console Use
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Aemtrine-cc/restock.git
+   git clone https://github.com/YOUR_USERNAME/restock.git
    cd restock
+   
+2. Run the installer
+   ```bash
+   chmod +x cli-install.sh
+   ./cli-install.sh
